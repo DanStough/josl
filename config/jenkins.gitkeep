@@ -1,0 +1,14 @@
+// Enter in your Jenkins info here and change the file extension
+// to .json. 
+// DANGER: DO NOT COMMIT THIS FILE, though jenkins.json is included
+// in .gitignore by default.
+
+{
+   "Jenkins": {
+       "url": "<jenkinsUrl>",
+       "key": "<apiKey>",
+       "repos": [
+           "<repoName>"
+       ]
+   }
+}

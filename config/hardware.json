@@ -1,0 +1,24 @@
+// Pin naming conventions based raspi-io package
+// https://github.com/nebrius/raspi-io/wiki/Pin-Information#model-abraspberry-pi-2raspberry-pi-3raspberry-pi-zero
+
+{
+  "Pinout": {
+    "stoplight": {
+      "nEnable": "GPIO22",
+      "nAlarm": "GPIO17",
+      "nGreen": "GPIO23",
+      "nYellow": "GPIO18",
+      "nRed": "GPIO4"
+    },
+    "sevenSegmentDisplay": {
+      "SDA": "SDA0",
+      "SCL": "SCL0"
+    },
+    "nPushbutton": "GPIO24",
+    "nLed": "GPIO27",
+    "nKeyswitch": "GPIO21"
+  },
+  "Address": {
+    "sevenSegmentDisplay": "0x71"
+  }
+}

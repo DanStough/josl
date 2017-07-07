@@ -1,3 +1,6 @@
+# Ignore API Key
+jenkins.json
+
 # Logs
 logs
 *.log
