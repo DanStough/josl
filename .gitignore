@@ -1,5 +1,8 @@
-# Ignore API Key
-jenkins.json
+# VS Code files
+.vscode/
+
+# Local config (API Key)
+local*.json
 
 # Logs
 logs

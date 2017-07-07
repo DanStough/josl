@@ -1,6 +1,5 @@
 // Pin naming conventions based raspi-io package
 // https://github.com/nebrius/raspi-io/wiki/Pin-Information#model-abraspberry-pi-2raspberry-pi-3raspberry-pi-zero
-
 {
   "Pinout": {
     "stoplight": {
