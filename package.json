@@ -1,0 +1,41 @@
+{
+  "name": "josl",
+  "version": "0.0.1",
+  "description": "The Jenkins OS Light. Another Jenkins build status monitor, now with more flavor!",
+  "main": "lib/application.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard | snazzy && ava",
+    "lint": "standard --fix --verbose | snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanStough/josl.git"
+  },
+  "keywords": [
+    "raspberrypi",
+    "raspi",
+    "jenkins",
+    "devops",
+    "buildmon",
+    "josl"
+  ],
+  "author": "Dan Stough",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanStough/josl/issues"
+  },
+  "homepage": "https://github.com/DanStough/josl#readme",
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "config": "^1.26.1",
+    "raspi-gpio":"^4.0.2",
+    "raspi-i2c": "^5.0.4"
+  }
+}
