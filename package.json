@@ -8,8 +8,8 @@
   },
   "scripts": {
     "lint": "standard --fix --verbose | snazzy",
-    "start" : "NODE_CONFIG_DIR=../config node ./lib/application.js",
-    "start-demo" : "NODE_CONFIG_DIR=../config node ./lib/demo.js",
+    "start" : "node ./lib/application.js",
+    "start-demo" : "node ./lib/demo.js",
     "test": "standard | snazzy && ava"
   },
   "repository": {
