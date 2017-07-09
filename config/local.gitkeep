@@ -4,11 +4,12 @@
 // in .gitignore by default.
 
 {
-   "Jenkins": {
-       "url": "<jenkinsUrl>",
-       "key": "<apiKey>",
-       "repos": [
-           "<repoName>"
-       ]
-   }
+  "Jenkins": {
+    "url": "<jenkinsUrl>",
+    "token": "<apiToken>",
+    "repos": [
+        "<repoName>"
+    ]
+  }
 }
+

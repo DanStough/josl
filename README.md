@@ -2,16 +2,22 @@
 :rotating_light: JOSL, the Jenkins 'OS' Light. Another Jenkins build status monitor, now with more flavor! :cake: :vertical_traffic_light:
 
 # TODO
-~ [ ] Indicator library
-    ~ [ ] Create Pulse API for Indicator
+
+* [ ] Switch Library
+    * [ ] Debounce Switch using Observables
+* [ ] Indicator library
+    * [ ] Create Pulse API for Indicator
+    * [ ] Switch to using observables?
+    * [ ] Delay partial flashes?
 * [ ] Stoplight library
     * [ ] Alarm API
     * [ ] Mute
-* [ ] Switch Library
-    * [ ] Debounce Switch using Observables
 * [ ] sevenSegment I2C API
-* [ ] complete BT Demo?
-* [ ] Integrate Jenkins modules
+    * [ ] Number to display
+    * [ ] Error display
+    * [ ] Special Character API/ Animations?
+* [ ] Complete BT Demo?
+* [ ] Integrate jenkins library
 
 # REQUIRED HARDWARE
 
