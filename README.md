@@ -3,12 +3,12 @@
 
 # TODO
 * [ ] Indicator library
-** [ ] Create Pulse API for Indicator
+    * [ ] Create Pulse API for Indicator
 * [ ] Stoplight library
-** [ ] Alarm API
-** [ ] Mute
+    * [ ] Alarm API
+    * [ ] Mute
 * [ ] Switch Library
-** [ ] Debounce Switch using Observables
+    * [ ] Debounce Switch using Observables
 * [ ] sevenSegment I2C API
 * [ ] complete BT Demo?
 * [ ] Integrate Jenkins modules
