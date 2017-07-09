@@ -1,6 +1,9 @@
 # VS Code files
 .vscode/
 
+# Lock file
+package-lock.json
+
 # Local config (API Key)
 local*.json
 
