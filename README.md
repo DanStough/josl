@@ -5,6 +5,7 @@
 
 * [ ] Switch Library
     * [ ] Debounce Switch using Observables
+* [ ] Process exit cleanup procedure.
 * [ ] Indicator library
     * [ ] Create Pulse API for Indicator
     * [ ] Switch to using observables?
