@@ -12,6 +12,7 @@
 * [ ] Stoplight library
     * [ ] Alarm API
     * [ ] Mute
+* [ ] Add debug library
 * [ ] sevenSegment I2C API
     * [ ] Number to display
     * [ ] Error display

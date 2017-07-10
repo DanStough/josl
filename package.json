@@ -8,8 +8,8 @@
   },
   "scripts": {
     "lint": "standard --fix --verbose | snazzy",
-    "start" : "node ./lib/application.js",
-    "start-demo" : "node ./lib/demo.js",
+    "start": "node ./lib/application.js",
+    "start-demo": "node ./lib/demo.js",
     "test": "standard | snazzy && ava"
   },
   "repository": {
@@ -37,7 +37,8 @@
   },
   "dependencies": {
     "config": "^1.26.1",
-    "raspi-gpio":"^4.0.2",
-    "raspi-i2c": "^5.0.4"
+    "raspi-gpio": "^4.0.2",
+    "raspi-i2c": "^5.0.4",
+    "rx": "^4.1.0"
   }
 }
