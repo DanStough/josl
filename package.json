@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "debug": "DEBUG=* npm start",
+    "debug-demo": "DEBUG=* npm run start-demo",
     "lint": "standard --fix --verbose | snazzy",
     "start": "node ./lib/application.js",
     "start-demo": "node ./lib/demo.js",
@@ -37,6 +39,7 @@
   },
   "dependencies": {
     "config": "^1.26.1",
+    "debug": "^2.6.8",
     "raspi-gpio": "^4.0.2",
     "raspi-i2c": "^5.0.4",
     "rx": "^4.1.0"

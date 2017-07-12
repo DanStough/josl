@@ -5,6 +5,7 @@
 
 * [ ] Switch Library
     * [ ] Debounce Switch using Observables
+* [ ] Add debug library
 * [ ] Process exit cleanup procedure.
 * [ ] Indicator library
     * [ ] Create Pulse API for Indicator
@@ -13,7 +14,6 @@
 * [ ] Stoplight library
     * [ ] Alarm API
     * [ ] Mute
-* [ ] Add debug library
 * [ ] sevenSegment I2C API
     * [ ] Number to display
     * [ ] Error display
