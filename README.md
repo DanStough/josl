@@ -3,10 +3,10 @@
 
 # TODO
 
-* [ ] Switch Library
-    * [ ] Debounce Switch using Observables
+* [X] ~~*Switch Library*~~
+    * [X] ~~*Debounce Switch using Observables*~~
+* [ ] Process exit cleanup procedure. (fix DEATH)
 * [ ] Add debug library
-* [ ] Process exit cleanup procedure.
 * [ ] Indicator library
     * [ ] Create Pulse API for Indicator
     * [ ] Switch to using observables?
@@ -18,7 +18,7 @@
     * [ ] Number to display
     * [ ] Error display
     * [ ] Special Character API/ Animations?
-* [ ] Complete BT Demo?
+* [ ] Complete Demo as BT?
 * [ ] Integrate jenkins library
 
 # REQUIRED HARDWARE
