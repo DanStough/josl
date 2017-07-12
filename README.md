@@ -5,7 +5,7 @@
 
 * [X] ~~*Switch Library*~~
     * [X] ~~*Debounce Switch using Observables*~~
-* [ ] Process exit cleanup procedure. (fix DEATH)
+* [X] ~~*Process exit cleanup procedure.*~~
 * [ ] Add debug library
 * [ ] Indicator library
     * [ ] Create Pulse API for Indicator
