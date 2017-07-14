@@ -6,7 +6,7 @@
 * [X] ~~*Switch Library*~~
     * [X] ~~*Debounce Switch using Observables*~~
 * [X] ~~*Process exit cleanup procedure.*~~
-* [ ] Add debug library
+* [X] ~~*Add debug library*~~
 * [ ] Indicator library
     * [ ] Create Pulse API for Indicator
     * [ ] Switch to using observables?
