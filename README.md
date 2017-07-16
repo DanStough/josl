@@ -15,8 +15,9 @@
     * [ ] Alarm API
     * [ ] Mute
 * [ ] sevenSegment I2C API
-    * [ ] Number to display
-    * [ ] Error display
+    * [X] ~~*Number to display*~~
+    * [ ] Promisify I2C Aysnc API
+    * [] Error display
     * [ ] Special Character API/ Animations?
 * [ ] Complete Demo as BT?
 * [ ] Integrate jenkins library
@@ -24,6 +25,8 @@
 # REQUIRED HARDWARE
 
 # INSTALLATION
+
+* Modify `/boot/config.txt`, modify the I2C baudrate from 100000 to 10000, save and reboot the raspberry pi. This resolves stability issues with the [seven segment serial display](https://www.sparkfun.com/products/11441).
 
 # USAGE
 
