@@ -16,8 +16,8 @@
     * [ ] Mute
 * [ ] sevenSegment I2C API
     * [X] ~~*Number to display*~~
-    * [ ] Promisify I2C Aysnc API
-    * [] Error display
+    * [X] ~~*Promisify I2C Aysnc API*~~
+    * [X] ~~*Error display*~~
     * [ ] Special Character API/ Animations?
 * [ ] Complete Demo as BT?
 * [ ] Integrate jenkins library
