@@ -8,9 +8,9 @@
 * [X] ~~*Process exit cleanup procedure.*~~
 * [X] ~~*Add debug library*~~
 * [ ] Indicator library
+    * [X] ~~*Delay partial flashes*~~
     * [ ] Create Pulse API for Indicator
     * [ ] Switch to using observables?
-    * [ ] Delay partial flashes?
 * [ ] Stoplight library
     * [ ] Alarm API
     * [ ] Mute
