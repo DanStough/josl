@@ -18,11 +18,9 @@
     * [X] ~~*Number to display*~~
     * [X] ~~*Promisify I2C Aysnc API*~~
     * [X] ~~*Error display*~~
-    * [X] ~~*Factor out for loop in all routines*~~
-    * [ ] Special Character API/ Animations
+    * [ ] Special Character API/ Animations?
 * [ ] Complete Demo as BT?
 * [ ] Integrate jenkins library
-* [ ] Documentation (sphinx-js)
 
 # REQUIRED HARDWARE
 
