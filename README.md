@@ -21,6 +21,7 @@
     * [ ] Special Character API/ Animations?
 * [ ] Complete Demo as BT?
 * [ ] Integrate jenkins library
+* [ ] Documentation
 
 # REQUIRED HARDWARE
 
