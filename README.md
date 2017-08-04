@@ -7,19 +7,21 @@
     * [X] ~~*Debounce Switch using Observables*~~
 * [X] ~~*Process exit cleanup procedure.*~~
 * [X] ~~*Add debug library*~~
-* [ ] Indicator library
+* [X] ~~*Indicator library*~~
     * [X] ~~*Delay partial flashes*~~
-    * [ ] Create Pulse API for Indicator
-    * [ ] Switch to using observables?
-* [ ] Stoplight library
-    * [ ] Alarm API
-    * [ ] Mute
+    * [X] ~~*Create Pulse API for Indicator*~~
+    * [X] ~~*Switch to using observables?*~~
+* [X] ~~*Stoplight library*~~
+    * [X] ~~*Alarm API*~~
+    * [X] ~~*Mute*~~
 * [ ] sevenSegment I2C API
     * [X] ~~*Number to display*~~
     * [X] ~~*Promisify I2C Aysnc API*~~
     * [X] ~~*Error display*~~
     * [ ] Special Character API/ Animations?
-* [ ] Complete Demo as BT?
+* [ ] Complete Demo
+* [ ] Integrate PM2 and Command line interface
+* [ ] Clock Demo
 * [ ] Integrate jenkins library
 * [ ] Documentation
 
