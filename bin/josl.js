@@ -6,18 +6,35 @@ program
   .version('0.0.1')
   .arguments('[mode]')
   .option('-d, --debug', 'Enable all debugging output')
-  .description('Run the JOSL I/O demo; does not require a connection to a Jenkin\'s Server')
+  .description('The Jenkins \'Oh Shit\' Light (JOSL) is a custom Jenkins Monitor for multiple jobs.')
   .action((mode) => {
     appMode = mode
   })
-  .parse(process.argv)
+
+program.on('--help', () => {
+  console.log('  Valid Modes:')
+  console.log('')
+  console.log('    - [None]  Run the main JOSL app (network required)')
+  console.log('    - clock   Run the clock demo (network required)')
+  console.log('    - demo    Run the JOSL I/O demo (network NOT required)')
+  console.log('')
+  console.log('  Examples:')
+  console.log('')
+  console.log('    $ josl')
+  console.log('    $ josl --debug demo')
+  console.log('    $ josl -d clock')
+  console.log('')
+})
+
+program.parse(process.argv)
 
 // Check options for debugging
 if (program.debug) {
   process.env.DEBUG = '*'
 }
 
-// This need to be done after commander to set up environment variables correctly
+// Application requires need to be done after commander to
+// set up environment variables correctly
 
 // const clock = require('../lib/clock')
 const demo = require('../lib/demo')
