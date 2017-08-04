@@ -1,14 +1,5 @@
 const program = require('commander')
 
-// const clock = require('lib/clock')
-const demo = require('lib/demo')
-// const joslApp = require('lib/application')
-
-const validModes = {
-  demo: demo, // demo function
-  clock: ''   // clock function
-}
-
 let appMode
 
 program
@@ -23,7 +14,18 @@ program
 
 // Check options for debugging
 if (program.debug) {
-  process.env['DEBUG'] = 'DEBUG=*'
+  process.env.DEBUG = '*'
+}
+
+// This need to be done after commander to set up environment variables correctly
+
+// const clock = require('../lib/clock')
+const demo = require('../lib/demo')
+// const joslApp = require('../lib/application')
+
+const validModes = {
+  demo: demo,
+  clock: ''   // clock function
 }
 
 // Check for the mode
