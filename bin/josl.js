@@ -1,6 +1,13 @@
 const program = require('commander')
 
-const validModes = ['demo', 'clock']
+// const clock = require('lib/clock')
+const demo = require('lib/demo')
+// const joslApp = require('lib/application')
+
+const validModes = {
+  demo: demo, // demo function
+  clock: ''   // clock function
+}
 
 let appMode
 
@@ -14,9 +21,18 @@ program
   })
   .parse(process.argv)
 
-if (!validModes.includes(appMode)) {
+// Check options for debugging
+if (program.debug) {
+  process.env['DEBUG'] = 'DEBUG=*'
+}
+
+// Check for the mode
+if (!appMode) {
+  // Run regular app
+} else if (appMode in validModes) {
+  // Run modified app
+  validModes[appMode]()
+} else {
   console.error('ERROR: Invalid argument.')
   program.help()
 }
-
-if (program.debug) console.log('Debug enabled.')
