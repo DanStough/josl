@@ -18,10 +18,11 @@
     * [X] ~~*Number to display*~~
     * [X] ~~*Promisify I2C Aysnc API*~~
     * [X] ~~*Error display*~~
-    * [ ] Special Character API/ Animations?
+    * [ ] Special Character API/ Animations (Hi message)?
 * [ ] Complete Demo
-* [ ] Integrate PM2 and Command line interface
+* [X] ~~*Command Line Interface*~~
 * [ ] Clock Demo
+* [ ] Integrate PM2
 * [ ] Integrate jenkins library
 * [ ] Documentation
 

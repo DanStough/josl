@@ -36,7 +36,6 @@
   },
   "homepage": "https://github.com/DanStough/josl#readme",
   "devDependencies": {
-    "ava": "^0.20.0",
     "snazzy": "^7.0.0",
     "standard": "^10.0.2"
   },

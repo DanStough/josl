@@ -12,6 +12,7 @@ program
   })
 
 program.on('--help', () => {
+  console.log('')
   console.log('  Valid Modes:')
   console.log('')
   console.log('    - [None]  Run the main JOSL app (network required)')
