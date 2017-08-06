@@ -19,12 +19,11 @@
     * [X] ~~*Promisify I2C Aysnc API*~~
     * [X] ~~*Error display*~~
     * [X] ~~*Special Character API/ Animations (Hi message, BILD)?*~~
-* [ ] Complete Demo
-    * [ ] Move mute variable into the subject code for live update
+* [X] ~~*Complete Demo*~~
+    * [X] ~~*Move mute variable into the subject code for live update*~~
     * [X] ~~*Create custom interval for each indicator to prevent chop on flash*~~
-    * [ ] 
 * [X] ~~*Command Line Interface*~~
-* [ ] Clock Demo
+* [X] ~~*Clock Demo*~~
 * [ ] Integrate PM2
 * [ ] Integrate jenkins library
 * [ ] Documentation

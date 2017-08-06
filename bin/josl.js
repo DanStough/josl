@@ -37,18 +37,20 @@ if (program.debug) {
 // Application requires need to be done after commander to
 // set up environment variables correctly
 
-// const clock = require('../lib/clock')
+const clock = require('../lib/clock')
 const demo = require('../lib/demo')
-// const joslApp = require('../lib/application')
+// const josl = require('../lib/application')
 
 const validModes = {
-  demo: demo,
-  clock: ''   // clock function
+  // app: josl
+  clock: clock,
+  demo: demo
 }
 
 // Check for the mode
 if (!appMode) {
   // Run regular app
+  // josl()
 } else if (appMode in validModes) {
   // Run modified app
   validModes[appMode]()
