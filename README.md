@@ -18,8 +18,11 @@
     * [X] ~~*Number to display*~~
     * [X] ~~*Promisify I2C Aysnc API*~~
     * [X] ~~*Error display*~~
-    * [ ] Special Character API/ Animations (Hi message)?
+    * [X] ~~*Special Character API/ Animations (Hi message, BILD)?*~~
 * [ ] Complete Demo
+    * [ ] Move mute variable into the subject code for live update
+    * [ ] Create custom interval for each indicator to prevent chop on flash
+    * [ ] 
 * [X] ~~*Command Line Interface*~~
 * [ ] Clock Demo
 * [ ] Integrate PM2
