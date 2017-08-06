@@ -14,14 +14,14 @@
 * [X] ~~*Stoplight library*~~
     * [X] ~~*Alarm API*~~
     * [X] ~~*Mute*~~
-* [ ] sevenSegment I2C API
+* [X] ~~*sevenSegment I2C API*~~
     * [X] ~~*Number to display*~~
     * [X] ~~*Promisify I2C Aysnc API*~~
     * [X] ~~*Error display*~~
     * [X] ~~*Special Character API/ Animations (Hi message, BILD)?*~~
 * [ ] Complete Demo
     * [ ] Move mute variable into the subject code for live update
-    * [ ] Create custom interval for each indicator to prevent chop on flash
+    * [X] ~~*Create custom interval for each indicator to prevent chop on flash*~~
     * [ ] 
 * [X] ~~*Command Line Interface*~~
 * [ ] Clock Demo
