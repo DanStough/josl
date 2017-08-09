@@ -24,13 +24,15 @@
     * [X] ~~*Create custom interval for each indicator to prevent chop on flash*~~
 * [X] ~~*Command Line Interface*~~
 * [X] ~~*Clock Demo*~~
-* [ ] Integrate PM2
+* [X] ~~*Integrate PM2*~~
 * [ ] Integrate jenkins library
 * [ ] Documentation
 
 # REQUIRED HARDWARE
 
 # INSTALLATION
+
+* Install and configure PM2 AS ROOT... 
 
 * Modify `/boot/config.txt`, modify the I2C baudrate from 100000 to 10000, save and reboot the raspberry pi. This resolves stability issues with the [seven segment serial display](https://www.sparkfun.com/products/11441).
 
