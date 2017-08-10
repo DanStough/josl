@@ -7,8 +7,8 @@
   "Jenkins": {
     "url": "<jenkinsUrl>",
     "token": "<apiToken>",
-    "repos": [
-        "<repoName>"
+    "jobs": [
+        "<jobName>"
     ]
   }
 }

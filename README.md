@@ -25,7 +25,7 @@
 * [X] ~~*Command Line Interface*~~
 * [X] ~~*Clock Demo*~~
 * [X] ~~*Integrate PM2*~~
-* [ ] Integrate jenkins library
+* [X] ~~*Integrate jenkins library*~~
 * [ ] Documentation
 
 # REQUIRED HARDWARE
