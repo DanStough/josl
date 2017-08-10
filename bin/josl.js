@@ -39,7 +39,7 @@ if (program.debug) {
 
 const clock = require('../lib/clock')
 const demo = require('../lib/demo')
-// const josl = require('../lib/application')
+const josl = require('../lib/application')
 
 const validModes = {
   // app: josl
@@ -50,7 +50,7 @@ const validModes = {
 // Check for the mode
 if (!appMode) {
   // Run regular app
-  // josl()
+  josl()
 } else if (appMode in validModes) {
   // Run modified app
   validModes[appMode]()
