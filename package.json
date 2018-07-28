@@ -15,7 +15,7 @@
     "lint": "standard --fix --verbose | snazzy",
     "start": "node ./lib/application.js",
     "start-demo": "node ./lib/demo.js",
-    "test": "standard | snazzy && ava"
+    "test": "standard | snazzy"
   },
   "repository": {
     "type": "git",
@@ -47,8 +47,8 @@
     "is-online": "^7.0.0",
     "is-reachable": "^2.3.3",
     "jenkins": "^0.20.0",
-    "raspi-gpio": "^4.0.2",
-    "raspi-i2c": "^5.0.4",
+    "raspi-gpio": "^6.0.0",
+    "raspi-i2c": "^6.1.2",
     "rxjs": "^5.4.2"
   }
 }
